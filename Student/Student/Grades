@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Grades - MyBerklee</title>
+<meta name="referrer" content="same-origin">
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=1200">
+<link rel="preload" href="../../css/Nunito-Bold.woff2" as="font" crossorigin>
+<style>html,body{-webkit-text-zoom:reset !important}@font-face{font-display:block;font-family:"Nunito";src:url('../../css/Nunito-Regular.woff2') format('woff2'),url('../../css/Nunito-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Nunito";src:url('../../css/Nunito-Bold.woff2') format('woff2'),url('../../css/Nunito-Bold.woff') format('woff');font-weight:700}body>div{font-size:0}p,span,h1,h2,h3,h4,h5,h6,a,li{margin:0;word-spacing:normal;word-wrap:break-word;-ms-word-wrap:break-word;pointer-events:auto;-ms-text-size-adjust:none !important;-moz-text-size-adjust:none !important;-webkit-text-size-adjust:none !important;text-size-adjust:none !important;max-height:10000000px}sup{font-size:inherit;vertical-align:baseline;position:relative;top:-0.4em}sub{font-size:inherit;vertical-align:baseline;position:relative;top:0.4em}ul{display:block;word-spacing:normal;word-wrap:break-word;line-break:normal;list-style-type:none;padding:0;margin:0;-moz-padding-start:0;-khtml-padding-start:0;-webkit-padding-start:0;-o-padding-start:0;-padding-start:0;-webkit-margin-before:0;-webkit-margin-after:0}li{display:block;white-space:normal}[data-marker]::before{content:attr(data-marker) ' ';-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}li p{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}form{display:inline-block}a{text-decoration:inherit;color:inherit;-webkit-tap-highlight-color:rgba(0,0,0,0)}textarea{resize:none}.shm-l{float:left;clear:left}.shm-r{float:right;clear:right}.btf{display:none}.plyr{min-width:0 !important}html{font-family:sans-serif}body{font-size:0;margin:0;--z:1;zoom:var(--z)}audio,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0;outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1,h2,h3,h4,h5,h6{font-size:1em;line-height:1;margin:0}img{border:0}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=submit]{-webkit-appearance:button;cursor:pointer;box-sizing:border-box;white-space:normal}input[type=date],input[type=email],input[type=number],input[type=password],input[type=text],textarea{-webkit-appearance:none;appearance:none;box-sizing:border-box}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;box-sizing:border-box;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}blockquote{margin-block-start:0;margin-block-end:0;margin-inline-start:0;margin-inline-end:0}:-webkit-full-screen-ancestor:not(iframe){-webkit-clip-path:initial !important}
+html{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}#b{background-color:#fff}.c2{display:block;position:relative;pointer-events:none;width:max(1200px, 100%);overflow:hidden;margin-top:0;min-height:914px}.ps1{position:relative;margin-top:0}.v1{display:block;vertical-align:top}.s1{width:1200px;margin-left:auto;margin-right:auto;min-height:914px}.z1{pointer-events:none}.v2{display:inline-block;vertical-align:top}.ps2{position:relative;margin-left:0;margin-top:0}.s2{min-width:1201px;width:1201px;min-height:405px}.s3{min-width:322px;width:322px;min-height:392px;line-height:0}.s4{min-width:322px;width:322px;min-height:392px}.s5{min-width:63px;width:63px;min-height:370px}.c3{border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#444}.z2{z-index:96}.ps3{position:relative;margin-left:0;margin-top:-310px}.s6{min-width:322px;width:322px;overflow:hidden;height:135px}.z3{z-index:107;pointer-events:auto}.p1{text-indent:0;padding-bottom:0;padding-right:0;text-align:left}.f1{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:15px;font-size:calc(15px * var(--f));line-height:1.134;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.ps4{position:relative;margin-left:0;margin-top:-178px}.s7{min-width:322px;width:322px;overflow:hidden;height:69px}.z4{z-index:109;pointer-events:auto}.ps5{position:relative;margin-left:0;margin-top:-112px}.z5{z-index:111;pointer-events:auto}.ps6{position:relative;margin-left:0;margin-top:-47px}.z6{z-index:113;pointer-events:auto}.ps7{position:relative;margin-left:0;margin-top:-332px}.s8{min-width:322px;width:322px;min-height:69px;height:69px}.z7{z-index:106;pointer-events:auto}.a1{display:block}.i1{position:absolute;left:0;width:322px;height:68px;top:0;border:0}.ps8{position:relative;margin-left:60px;margin-top:-392px}.s9{min-width:1141px;width:1141px;min-height:405px;line-height:0}.s10{min-width:1141px;width:1141px;min-height:63px}.z8{z-index:97}.ps9{position:relative;margin-left:20px;margin-top:11px}.s11{min-width:1101px;width:1101px;min-height:42px}.s12{min-width:162px;width:162px;min-height:42px;height:42px}.z9{z-index:98;pointer-events:auto}.i2{position:absolute;left:0;width:162px;height:40px;top:1px;border:0}.ps10{position:relative;margin-left:624px;margin-top:6px}.s13{min-width:23px;width:23px;min-height:28px;height:28px}.z10{z-index:99;pointer-events:auto}.i3{position:absolute;left:0;min-width:23px;max-width:23px;min-height:23px;max-height:23px;top:2px}.ps11{position:relative;margin-left:10px;margin-top:5px}.s14{min-width:41px;width:41px;overflow:hidden;height:31px}.z11{z-index:101;pointer-events:auto}.p2{text-indent:0;padding-bottom:0;padding-right:0;text-align:center}.f2{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:15px;font-size:calc(15px * var(--f));line-height:1.909;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#fff;background-color:initial;text-shadow:none}.ps12{position:relative;margin-left:37px;margin-top:6px}.z12{z-index:102;pointer-events:auto}.ps13{position:relative;margin-left:9px;margin-top:5px}.s15{min-width:64px;width:64px;overflow:hidden;height:31px}.z13{z-index:103;pointer-events:auto}.ps14{position:relative;margin-left:38px;margin-top:6px}.z14{z-index:104;pointer-events:auto}.s16{min-width:38px;width:38px;overflow:hidden;height:31px}.z15{z-index:105;pointer-events:auto}.ps15{position:relative;margin-left:0;margin-top:-3px}.s17{min-width:1141px;width:1141px;min-height:345px}.s18{min-width:1141px;width:1141px;min-height:345px;line-height:0}.s19{min-width:1141px;width:1141px;min-height:43px}.c5{border-bottom:1px solid #e2e2e2;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#f7f7f7}.z16{z-index:1}.ps16{position:relative;margin-left:118px;margin-top:10px}.s20{min-width:73px;width:73px;overflow:hidden;height:22px}.z17{z-index:2;pointer-events:auto}.f3{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:15px;font-size:calc(15px * var(--f));line-height:1.054;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#222;background-color:initial;text-shadow:none}.ps17{position:relative;margin-left:30px;margin-top:-31px}.s21{min-width:77px;width:77px;overflow:hidden;height:31px}.z18{z-index:3;pointer-events:auto}.f4{font-family:Nunito;font-size:15px;font-size:calc(15px * var(--f));line-height:0.988;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#222;background-color:initial;text-shadow:none}.ps18{position:relative;margin-left:51px;margin-top:-2px}.s22{min-width:1089px;width:1089px;min-height:200px}.c6{border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#f5f2e7}.z19{z-index:6}.ps19{position:relative;margin-left:71px;margin-top:-172px}.s23{min-width:303px;width:303px;overflow:hidden;height:30px}.z20{z-index:7;pointer-events:auto}.f5{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:19px;font-size:calc(19px * var(--f));line-height:1.369;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps20{position:relative;margin-left:-162px;margin-top:-156px}.s24{min-width:27px;width:27px;min-height:28px;height:28px}.z21{z-index:108;pointer-events:auto}.i4{position:absolute;left:0;min-width:27px;max-width:27px;min-height:27px;max-height:27px;top:0}.ps21{position:relative;margin-left:-168px;margin-top:-133px}.s25{min-width:290px;width:290px;overflow:hidden;height:25px}.z22{z-index:8;pointer-events:auto}.f6{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:15px;font-size:calc(15px * var(--f));line-height:1.383;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps22{position:relative;margin-left:0;margin-top:-201px}.s26{min-width:1139px;width:1139px;min-height:200px}.c7{border:1px solid #8a6a00;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#efc728}.z23{z-index:4}.ps23{position:relative;margin-left:0;margin-top:86px}.s27{min-width:53px;width:53px;min-height:28px;height:28px}.z24{z-index:5;pointer-events:auto}.i5{position:absolute;left:13px;min-width:28px;max-width:28px;min-height:28px;max-height:28px;top:0}.ps24{position:relative;margin-left:71px;margin-top:-101px}.s28{min-width:785px;width:785px;overflow:hidden;height:71px}.z25{z-index:9;pointer-events:auto}.ps25{position:relative;margin-left:-644px;margin-top:-91px}.z26{z-index:110;pointer-events:auto}.ps26{position:relative;margin-left:-27px;margin-top:-25px}.z27{z-index:112;pointer-events:auto}.ps27{position:relative;margin-left:0;margin-top:-6px}.s29{min-width:1141px;width:1141px;min-height:104px}.c8{border-bottom:1px solid #e2e2e2;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#eff1f3}.z28{z-index:10}.ps28{position:relative;margin-left:30px;margin-top:29px}.s30{min-width:812px;width:812px;overflow:hidden;height:45px}.z29{z-index:11;pointer-events:auto}.f7{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:31px;font-size:calc(31px * var(--f));line-height:1.388;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#444;background-color:initial;text-shadow:none}.ps29{position:relative;margin-left:191px;margin-top:63px}.z30{z-index:12;pointer-events:auto}.ps30{position:relative;margin-left:7px;margin-top:66px}.s31{min-width:36px;width:36px;overflow:hidden;height:22px}.z31{z-index:13;pointer-events:auto}.f8{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-size:calc(14px * var(--f));line-height:1.459;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#444;background-color:initial;text-shadow:none}.ps31{position:relative;margin-left:212px;margin-top:-62px}.z32{z-index:114;pointer-events:auto}.ps32{position:relative;margin-left:60px;margin-top:43px}.s32{min-width:1141px;width:1141px;min-height:466px}.s33{min-width:1141px;width:1141px;min-height:466px;line-height:0}.ps33{position:relative;margin-left:30px;margin-top:0}.s34{min-width:1081px;width:1081px;min-height:85px}.c9{border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#e2e2e2}.z33{z-index:14}.ps34{position:relative;margin-left:33px;margin-top:27px}.s35{min-width:1002px;width:1002px;overflow:hidden;height:38px}.z34{z-index:15;pointer-events:auto}.f9{font-family:Nunito;font-size:15px;font-size:calc(15px * var(--f));line-height:1.068;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#222;background-color:initial;text-shadow:none}.f10{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-size:calc(14px * var(--f));line-height:1.112;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#444;background-color:initial;text-shadow:none}.ps35{position:relative;margin-left:7px;margin-top:38px}.s36{min-width:19px;width:19px;min-height:19px;height:19px}.z35{z-index:16;pointer-events:auto}.i6{position:absolute;left:0;min-width:19px;max-width:19px;min-height:19px;max-height:19px;top:0}.ps36{position:relative;margin-left:30px;margin-top:-3px}.s37{min-width:1079px;width:1079px;min-height:3px}.c10{border:1px solid #e2e2e2;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#fff}.z36{z-index:17}.ps37{position:relative;margin-left:33px;margin-top:-2px}.s38{min-width:254px;width:254px;overflow:hidden;height:47px}.z37{z-index:18;pointer-events:auto}.f11{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-size:calc(14px * var(--f));line-height:1.529;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#444;background-color:initial;text-shadow:none}.ps38{position:relative;margin-left:-2px;margin-top:-2px}.s39{min-width:380px;width:380px;overflow:hidden;height:47px}.z38{z-index:19;pointer-events:auto}.ps39{position:relative;margin-left:0;margin-top:-2px}.z39{z-index:20;pointer-events:auto}.s40{min-width:191px;width:191px;overflow:hidden;height:47px}.z40{z-index:21;pointer-events:auto}.ps40{position:relative;margin-left:30px;margin-top:-38px}.s41{min-width:1081px;width:1081px;min-height:77px}.z41{z-index:39}.ps41{position:relative;margin-left:63px;margin-top:-58px}.z42{z-index:40;pointer-events:auto}.ps42{position:relative;margin-left:7px;margin-top:-47px}.z43{z-index:42;pointer-events:auto}.ps43{position:relative;margin-left:284px;margin-top:-41px}.s42{min-width:382px;width:382px;overflow:hidden;height:72px}.z44{z-index:22;pointer-events:auto}.ps44{position:relative;margin-left:-2px;margin-top:-41px}.s43{min-width:256px;width:256px;overflow:hidden;height:72px}.z45{z-index:23;pointer-events:auto}.ps45{position:relative;margin-left:52px;margin-top:-62px}.s44{min-width:222px;width:222px;overflow:hidden;height:51px}.z46{z-index:24;pointer-events:auto}.f12{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-size:calc(14px * var(--f));line-height:1.572;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#444;background-color:initial;text-shadow:none}.f13{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-size:calc(14px * var(--f));line-height:1.737;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#444;background-color:initial;text-shadow:none}.ps46{position:relative;margin-left:656px;margin-top:-61px}.s45{min-width:12px;width:12px;overflow:hidden;height:23px}.z47{z-index:25;pointer-events:auto}.ps47{position:relative;margin-left:30px;margin-top:-34px}.z48{z-index:44}.ps48{position:relative;margin-left:33px;margin-top:-31px}.z49{z-index:45;pointer-events:auto}.ps49{position:relative;margin-left:-2px;margin-top:-31px}.z50{z-index:46;pointer-events:auto}.ps50{position:relative;margin-left:0;margin-top:-31px}.z51{z-index:47;pointer-events:auto}.z52{z-index:48;pointer-events:auto}.z53{z-index:60}.z54{z-index:65;pointer-events:auto}.ps51{position:relative;margin-left:284px;margin-top:-58px}.z55{z-index:26;pointer-events:auto}.ps52{position:relative;margin-left:-2px;margin-top:-58px}.z56{z-index:27;pointer-events:auto}.z57{z-index:28;pointer-events:auto}.s46{min-width:10px;width:10px;overflow:hidden;height:23px}.z58{z-index:29;pointer-events:auto}.ps53{position:relative;margin-left:132px;margin-top:-61px}.z59{z-index:66;pointer-events:auto}.ps54{position:relative;margin-left:284px;margin-top:-55px}.z60{z-index:49;pointer-events:auto}.ps55{position:relative;margin-left:-2px;margin-top:-55px}.z61{z-index:50;pointer-events:auto}.z62{z-index:51;pointer-events:auto}.s47{min-width:20px;width:20px;overflow:hidden;height:23px}.z63{z-index:52;pointer-events:auto}.z64{z-index:67}.z65{z-index:68;pointer-events:auto}.z66{z-index:69;pointer-events:auto}.z67{z-index:70;pointer-events:auto}.z68{z-index:71;pointer-events:auto}.z69{z-index:80}.ps56{position:relative;margin-left:284px;margin-top:-75px}.z70{z-index:30;pointer-events:auto}.ps57{position:relative;margin-left:-2px;margin-top:-75px}.z71{z-index:31;pointer-events:auto}.ps58{position:relative;margin-left:52px;margin-top:-65px}.z72{z-index:32;pointer-events:auto}.ps59{position:relative;margin-left:656px;margin-top:-64px}.z73{z-index:33;pointer-events:auto}.z74{z-index:81;pointer-events:auto}.z75{z-index:53;pointer-events:auto}.z76{z-index:54;pointer-events:auto}.z77{z-index:55;pointer-events:auto}.z78{z-index:56;pointer-events:auto}.ps60{position:relative;margin-left:130px;margin-top:-61px}.z79{z-index:83;pointer-events:auto}.z80{z-index:73;pointer-events:auto}.z81{z-index:74;pointer-events:auto}.z82{z-index:75;pointer-events:auto}.z83{z-index:76;pointer-events:auto}.ps61{position:relative;margin-left:284px;margin-top:-37px}.z84{z-index:34;pointer-events:auto}.ps62{position:relative;margin-left:-2px;margin-top:-37px}.z85{z-index:35;pointer-events:auto}.ps63{position:relative;margin-left:30px;margin-top:-69px}.z86{z-index:84}.ps64{position:relative;margin-left:33px;margin-top:-66px}.z87{z-index:87;pointer-events:auto}.ps65{position:relative;margin-left:-2px;margin-top:-66px}.z88{z-index:88;pointer-events:auto}.ps66{position:relative;margin-left:0;margin-top:-66px}.z89{z-index:89;pointer-events:auto}.z90{z-index:90;pointer-events:auto}.z91{z-index:36;pointer-events:auto}.z92{z-index:37;pointer-events:auto}.z93{z-index:58;pointer-events:auto}.z94{z-index:59;pointer-events:auto}.z95{z-index:77;pointer-events:auto}.s48{min-width:13px;width:13px;overflow:hidden;height:23px}.z96{z-index:61;pointer-events:auto}.z97{z-index:78;pointer-events:auto}.z98{z-index:79;pointer-events:auto}.ps67{position:relative;margin-left:0;margin-top:-71px}.s49{min-width:1141px;width:1141px;min-height:70px}.c11{border:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background-color:#eff1f3}.z99{z-index:100}.z100{z-index:86;pointer-events:auto}.s50{min-width:16px;width:16px;overflow:hidden;height:23px}.z101{z-index:85;pointer-events:auto}.s51{min-width:382px;width:382px;overflow:hidden;height:55px}.z102{z-index:92;pointer-events:auto}.s52{min-width:256px;width:256px;overflow:hidden;height:55px}.z103{z-index:93;pointer-events:auto}.ps68{position:relative;margin-left:312px;margin-top:-47px}.s53{min-width:517px;width:517px;overflow:hidden;height:22px}.z104{z-index:115;pointer-events:auto}.f14{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-size:calc(14px * var(--f));line-height:1.459;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;letter-spacing:normal;color:#555;background-color:initial;text-shadow:none}.f15{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;font-size:calc(14px * var(--f));line-height:1.459;font-weight:400;font-style:normal;text-decoration:underline;text-transform:none;letter-spacing:normal;color:#000;background-color:initial;text-shadow:none}.ps69{position:relative;margin-left:-777px;margin-top:-45px}.s54{min-width:222px;width:222px;overflow:hidden;height:50px}.z105{z-index:94;pointer-events:auto}.ps70{position:relative;margin-left:656px;margin-top:-44px}.z106{z-index:95;pointer-events:auto}.ps71{position:relative;margin-left:284px;margin-top:-42px}.s55{min-width:382px;width:382px;overflow:hidden;height:37px}.z107{z-index:38;pointer-events:auto}.ps72{position:relative;margin-left:-2px;margin-top:-42px}.s56{min-width:256px;width:256px;overflow:hidden;height:37px}.z108{z-index:57;pointer-events:auto}.ps73{position:relative;margin-left:52px;margin-top:-32px}.z109{z-index:41;pointer-events:auto}.ps74{position:relative;margin-left:656px;margin-top:-31px}.z110{z-index:43;pointer-events:auto}.ps75{position:relative;margin-left:284px;margin-top:-43px}.s57{min-width:382px;width:382px;overflow:hidden;height:23px}.z111{z-index:62;pointer-events:auto}.ps76{position:relative;margin-left:-2px;margin-top:-43px}.s58{min-width:256px;width:256px;overflow:hidden;height:23px}.z112{z-index:63;pointer-events:auto}.ps77{position:relative;margin-left:52px;margin-top:-33px}.s59{min-width:222px;width:222px;overflow:hidden;height:25px}.z113{z-index:64;pointer-events:auto}.ps78{position:relative;margin-left:656px;margin-top:-32px}.z114{z-index:72;pointer-events:auto}.ps79{position:relative;margin-left:284px;margin-top:-26px}.z115{z-index:82;pointer-events:auto}.ps80{position:relative;margin-left:-2px;margin-top:-26px}.z116{z-index:91;pointer-events:auto}</style>
+<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon-8b8c6a.png">
+<meta name="msapplication-TileImage" content="../../images/mstile-144x144-5ccd81.png">
+<link rel="manifest" href="../../manifest.json" crossOrigin="use-credentials">
+<link onload="this.media='all';this.onload=null;" rel="stylesheet" href="../../css/Student-Student.f4b7d9.css" media="print">
+</head>
+<body id="b">
+<script>var p=document.createElement("P");p.innerHTML="&nbsp;",p.style.cssText="position:fixed;visible:hidden;font-size:100px;zoom:1",document.body.appendChild(p);var rsz=function(e){return function(){var r=Math.trunc(1e3/parseFloat(window.getComputedStyle(e).getPropertyValue("font-size")))/10,t=document.body;r!=t.style.getPropertyValue("--f")&&t.style.setProperty("--f",r)}}(p);if("ResizeObserver"in window){var ro=new ResizeObserver(rsz);ro.observe(p)}else if("requestAnimationFrame"in window){var raf=function(){rsz(),requestAnimationFrame(raf)};requestAnimationFrame(raf)}else setInterval(rsz,100);</script>
+
+<div class="c2">
+<div class="ps1 v1 s1 z1">
+<div class="v2 ps2 s2">
+<div class="v2 ps2 s3">
+<div class="v2 ps2 s4">
+<div class="v2 ps2 s3">
+<div class="v2 ps2 s5 c3 z2"></div>
+<div class="v2 ps3 s6 c4 z3">
+<p class="p1"><a href="https://my.berklee.edu/Student/" class="f1">Home</a></p>
+<p class="p1 f1">&nbsp;Financial Information </p>
+</div>
+<div class="v2 ps4 s7 c4 z4">
+<p class="p1 f1">Employment </p>
+</div>
+<div class="v2 ps5 s7 c4 z5">
+<p class="p1 f1">Academics </p>
+</div>
+<div class="v2 ps6 s7 c4 z6">
+<p class="p1 f1">My Profile </p>
+</div>
+</div>
+</div>
+<div class="v2 ps7 s8 c4 z7">
+<a href="https://my.berklee.edu/Student/" class="a1"><picture><source srcset="../../images/home-icon-2x-322.webp 1x, ../../images/home-icon-2x-644.webp 2x" type="image/webp"><source srcset="../../images/home-icon-2x-322.png 1x, ../../images/home-icon-2x-644.png 2x"><img src="../../images/home-icon-2x-644.png" class="i1"></picture></a>
+</div>
+</div>
+<div class="v2 ps8 s9">
+<div class="v2 ps2 s10 c3 z8">
+<div class="v2 ps9 s11">
+<div class="v2 ps2 s12 c4 z9">
+<a href="https://my.berklee.edu/Student/" class="a1"><picture><source srcset="../../images/custom-header-logo-162.webp 1x" type="image/webp"><source srcset="../../images/custom-header-logo-162.png 1x"><img src="../../images/custom-header-logo-162.png" class="i2"></picture></a>
+</div>
+<div class="v2 ps10 s13 c4 z10">
+<svg opacity="0" viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" transform="matrix(0 0 0 0 0 0)" class="i3">
+
+</svg>
+</div>
+<div class="v2 ps11 s14 c4 z11">
+<p class="p2 f2">iager</p>
+</div>
+<div class="v2 ps12 s13 c4 z12">
+<svg opacity="0" viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" transform="matrix(0 0 0 0 0 0)" class="i3">
+
+</svg>
+</div>
+<div class="v2 ps13 s15 c4 z13">
+<p class="p2 f2">Sign out</p>
+</div>
+<div class="v2 ps14 s13 c4 z14">
+<svg opacity="0" viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" transform="matrix(0 0 0 0 0 0)" class="i3">
+
+</svg>
+</div>
+<div class="v2 ps13 s16 c4 z15">
+<p class="p2 f2">Help</p>
+</div>
+</div>
+</div>
+<div class="v2 ps15 s17">
+<div class="v2 ps2 s18">
+<div class="v2 ps2 s19 c5 z16">
+<div class="v2 ps16 s20 c4 z17">
+<p class="p1 f3">Grades </p>
+</div>
+</div>
+<div class="v2 ps17 s21 c4 z18">
+<p class="p2 f4">Academics</p>
+</div>
+<div class="v2 ps18 s22 c6 z19"></div>
+<div class="v2 ps19 s23 c4 z20">
+<p class="p1 f5">MyBerklee Registration Update</p>
+</div>
+<div class="v2 ps20 s24 c4 z21">
+<svg viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" class="i4">
+
+</svg>
+</div>
+<div class="v2 ps21 s25 c4 z22">
+<p class="p1 f6">Tip: How to Get Faster Search Results</p>
+</div>
+<div class="v2 ps22 s26 c7 z23">
+<div class="v2 ps23 s27 c4 z24">
+<svg opacity="0" viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" transform="matrix(0 0 0 0 0 0)" class="i5">
+
+</svg>
+</div>
+</div>
+<div class="v2 ps24 s28 c4 z25">
+<p class="p1 f6">When searching for courses, narrow down your search with as many criteria as possible. </p>
+<p class="p1 f6">&nbsp;For example, always search the Course Catalog by Term (single term preferably). </p>
+<p class="p1 f6">&nbsp;The initial load may take a little longer, but the following searches should return results more quickly.</p>
+</div>
+<div class="v2 ps25 s24 c4 z26">
+<svg viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" class="i4">
+
+</svg>
+</div>
+<div class="v2 ps26 s24 c4 z27">
+<svg viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" class="i4">
+
+</svg>
+</div>
+<div class="v2 ps27 s29 c8 z28">
+<div class="v2 ps28 s30 c4 z29">
+<p class="p1 f7">Grades </p>
+</div>
+<div class="v2 ps29 s24 c4 z30">
+<svg opacity="0" viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" transform="matrix(0 0 0 0 0 0)" class="i4">
+
+</svg>
+</div>
+<div class="v2 ps30 s31 c4 z31">
+<p class="p1"><a href="#" class="f8">Print</a></p>
+</div>
+</div>
+<div class="v2 ps31 s24 c4 z32">
+<svg viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" class="i4">
+
+</svg>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="v2 ps32 s32">
+<div class="v2 ps2 s33">
+<div class="v2 ps33 s34 c9 z33">
+<div class="v2 ps34 s35 c4 z34">
+<p class="p1 f9">2023 Spring Semester (1/23/2023-5/12/2023)<span class="f10">Term GPA: 0.250</span></p>
+</div>
+<div class="v2 ps35 s36 c4 z35">
+<svg opacity="0" viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" transform="matrix(0 0 0 0 0 0)" class="i6">
+
+</svg>
+</div>
+</div>
+<div class="v2 ps36 s37 c10 z36"></div>
+<div class="v2 ps37 s38 c4 z37">
+<p class="p1 f11">Course Section</p>
+</div>
+<div class="v2 ps38 s39 c4 z38">
+<p class="p1 f11">Title</p>
+</div>
+<div class="v2 ps39 s38 c4 z39">
+<p class="p1 f11">Credits</p>
+</div>
+<div class="v2 ps38 s40 c4 z40">
+<p class="p1 f11">Final Grade</p>
+</div>
+<div class="v2 ps40 s41 c9 z41"></div>
+<div class="v2 ps41 s35 c4 z42">
+<p class="p1 f9">2022 Fall Semester (9/5/2022-12/16/2022)<span class="f10">Term GPA: 1.040</span></p>
+</div>
+<div class="v2 ps42 s36 c4 z43">
+<svg opacity="0" viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" transform="matrix(0 0 0 0 0 0)" class="i6">
+
+</svg>
+</div>
+<div class="v2 ps43 s42 c4 z44">
+<p class="p1 f11">Classical String Chamber Music</p>
+</div>
+<div class="v2 ps44 s43 c4 z45">
+<p class="p1 f11">1</p>
+</div>
+<div class="v2 ps45 s44 c4 z46">
+<p class="p1 f12">ENST-251-001</p>
+<p class="p1 f13">1/23/2023 - 5/12/2023</p>
+</div>
+<div class="v2 ps46 s45 c4 z47">
+<p class="p1 f11">A</p>
+</div>
+<div class="v2 ps47 s37 c10 z48"></div>
+<div class="v2 ps48 s38 c4 z49">
+<p class="p1 f11">Course Section</p>
+</div>
+<div class="v2 ps49 s39 c4 z50">
+<p class="p1 f11">Title</p>
+</div>
+<div class="v2 ps50 s38 c4 z51">
+<p class="p1 f11">Credits</p>
+</div>
+<div class="v2 ps49 s40 c4 z52">
+<p class="p1 f11">Final Grade</p>
+</div>
+<div class="v2 ps40 s41 c9 z53"></div>
+<div class="v2 ps41 s35 c4 z54">
+<p class="p1 f9">2022 Spring Semester (1/17/2022-5/6/2022)<span class="f10">Term GPA: 3.371</span></p>
+</div>
+<div class="v2 ps51 s42 c4 z55">
+<p class="p1 f11">Ear Training 4</p>
+</div>
+<div class="v2 ps52 s43 c4 z56">
+<p class="p1 f11">2</p>
+</div>
+<div class="v2 ps45 s44 c4 z57">
+<p class="p1 f12">ET-212-014</p>
+<p class="p1 f13">1/23/2023 - 5/12/2023</p>
+</div>
+<div class="v2 ps46 s46 c4 z58">
+<p class="p1 f11">F</p>
+</div>
+<div class="v2 ps53 s36 c4 z59">
+<svg opacity="0" viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" transform="matrix(0 0 0 0 0 0)" class="i6">
+
+</svg>
+</div>
+<div class="v2 ps54 s42 c4 z60">
+<p class="p1 f11">Arranging 1 Continuing -Online</p>
+</div>
+<div class="v2 ps55 s43 c4 z61">
+<p class="p1 f11">2</p>
+</div>
+<div class="v2 ps45 s44 c4 z62">
+<p class="p1 f12">AR-123-R001</p>
+<p class="p1 f13">9/5/2022 - 12/16/2022</p>
+</div>
+<div class="v2 ps46 s47 c4 z63">
+<p class="p1 f11">C+</p>
+</div>
+<div class="v2 ps47 s37 c10 z64"></div>
+<div class="v2 ps48 s38 c4 z65">
+<p class="p1 f11">Course Section</p>
+</div>
+<div class="v2 ps49 s39 c4 z66">
+<p class="p1 f11">Title</p>
+</div>
+<div class="v2 ps50 s38 c4 z67">
+<p class="p1 f11">Credits</p>
+</div>
+<div class="v2 ps49 s40 c4 z68">
+<p class="p1 f11">Final Grade</p>
+</div>
+<div class="v2 ps40 s41 c9 z69"></div>
+<div class="v2 ps56 s42 c4 z70">
+<p class="p1 f11">Harmony 2</p>
+</div>
+<div class="v2 ps57 s43 c4 z71">
+<p class="p1 f11">2</p>
+</div>
+<div class="v2 ps58 s44 c4 z72">
+<p class="p1 f12">HR-112-048</p>
+<p class="p1 f13">1/23/2023 - 5/12/2023</p>
+</div>
+<div class="v2 ps59 s46 c4 z73">
+<p class="p1 f11">F</p>
+</div>
+<div class="v2 ps41 s35 c4 z74">
+<p class="p1 f9">2021 Fall Semester (9/6/2021-12/17/2021)<span class="f10">Term GPA: 2.531</span></p>
+</div>
+<div class="v2 ps51 s42 c4 z75">
+<p class="p1 f11">Berklee Cellos</p>
+</div>
+<div class="v2 ps52 s43 c4 z76">
+<p class="p1 f11">1</p>
+</div>
+<div class="v2 ps45 s44 c4 z77">
+<p class="p1 f12">ENST-300-001</p>
+<p class="p1 f13">9/5/2022 - 12/16/2022</p>
+</div>
+<div class="v2 ps46 s45 c4 z78">
+<p class="p1 f11">B</p>
+</div>
+<div class="v2 ps60 s36 c4 z79">
+<svg opacity="0" viewBox="nan nan nan nan" xmlns="http://www.w3.org/2000/svg" transform="matrix(0 0 0 0 0 0)" class="i6">
+
+</svg>
+</div>
+<div class="v2 ps54 s42 c4 z80">
+<p class="p1 f11">Global String Ensemble</p>
+</div>
+<div class="v2 ps55 s43 c4 z81">
+<p class="p1 f11">1</p>
+</div>
+<div class="v2 ps45 s44 c4 z82">
+<p class="p1 f12">ENST-271-002</p>
+<p class="p1 f13">1/17/2022 - 5/6/2022</p>
+</div>
+<div class="v2 ps46 s45 c4 z83">
+<p class="p1 f11">A</p>
+</div>
+<div class="v2 ps61 s42 c4 z84">
+<p class="p1 f11">String Reading Lab</p>
+</div>
+<div class="v2 ps62 s43 c4 z85">
+<p class="p1 f11">1</p>
+</div>
+<div class="v2 ps63 s37 c10 z86"></div>
+<div class="v2 ps64 s38 c4 z87">
+<p class="p1 f11">Course Section</p>
+</div>
+<div class="v2 ps65 s39 c4 z88">
+<p class="p1 f11">Title</p>
+</div>
+<div class="v2 ps66 s38 c4 z89">
+<p class="p1 f11">Credits</p>
+</div>
+<div class="v2 ps65 s40 c4 z90">
+<p class="p1 f11">Final Grade</p>
+</div>
+<div class="v2 ps45 s44 c4 z91">
+<p class="p1 f12">ILST-111-001</p>
+<p class="p1 f13">1/23/2023 - 5/12/2023</p>
+</div>
+<div class="v2 ps46 s46 c4 z92">
+<p class="p1 f11">F</p>
+</div>
+<div class="v2 ps54 s42 c4 z93">
+<p class="p1 f11">Ear Training 4</p>
+</div>
+<div class="v2 ps55 s43 c4 z94">
+<p class="p1 f11">2</p>
+</div>
+<div class="v2 ps45 s44 c4 z95">
+<p class="p1 f12">ET-212-028</p>
+<p class="p1 f13">9/5/2022 - 12/16/2022</p>
+</div>
+<div class="v2 ps46 s48 c4 z96">
+<p class="p1 f11">D</p>
+</div>
+<div class="v2 ps54 s42 c4 z97">
+<p class="p1 f11">Ear Training 3</p>
+</div>
+<div class="v2 ps55 s43 c4 z98">
+<p class="p1 f11">2</p>
+</div>
+<div class="v2 ps67 s49 c11 z99"></div>
+<div class="v2 ps45 s44 c4 z100">
+<p class="p1 f12">ET-211-030</p>
+<p class="p1 f13">1/17/2022 - 5/6/2022</p>
+</div>
+<div class="v2 ps46 s50 c4 z101">
+<p class="p1 f11">A-</p>
+</div>
+<div class="v2 ps54 s51 c4 z102">
+<p class="p1 f11">Arranging 1 Entering</p>
+</div>
+<div class="v2 ps55 s52 c4 z103">
+<p class="p1 f11">2</p>
+</div>
+<div class="v2 ps68 s53 c4 z104">
+<p class="p2 f14">&COPY; 2000-2023 Ellucian Company L.P. and its affiliates. All rights reserved. <a href="https://my.berklee.edu/Student/Home/privacy" class="f15">Privacy</a></p>
+</div>
+<div class="v2 ps69 s54 c4 z105">
+<p class="p1 f12">AR-111-4G</p>
+<p class="p1 f13">9/6/2021 - 12/17/2021</p>
+</div>
+<div class="v2 ps70 s46 c4 z106">
+<p class="p1 f11">F</p>
+</div>
+<div class="v2 ps71 s55 c4 z107">
+<p class="p1 f11">Principles of Economics</p>
+</div>
+<div class="v2 ps72 s56 c4 z108">
+<p class="p1 f11">3</p>
+</div>
+<div class="v2 ps73 s54 c4 z109">
+<p class="p1 f12">LSOC-225-004</p>
+<p class="p1 f13">1/23/2023 - 5/12/2023</p>
+</div>
+<div class="v2 ps74 s46 c4 z110">
+<p class="p1 f11">F</p>
+</div>
+<div class="v2 ps75 s57 c4 z111">
+<p class="p1 f11">Harmony 2</p>
+</div>
+<div class="v2 ps76 s58 c4 z112">
+<p class="p1 f11">2</p>
+</div>
+<div class="v2 ps77 s59 c4 z113">
+<p class="p1 f12">HR-112-013</p>
+</div>
+<div class="v2 ps78 s46 c4 z114">
+<p class="p1 f11">F</p>
+</div>
+<div class="v2 ps79 s57 c4 z115">
+<p class="p1 f11">Intro to College Writing</p>
+</div>
+<div class="v2 ps80 s58 c4 z116">
+<p class="p1 f11">3</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="btf c1">
+</div>
+<script>!function(){if("Promise"in window&&void 0!==window.performance){var e,t,r=document,n=function(){return r.createElement("link")},o=new Set,a=n(),i=a.relList&&a.relList.supports&&a.relList.supports("prefetch"),s=location.href.replace(/#[^#]+$/,"");o.add(s);var c=function(e){var t=location,r="http:",n="https:";if(e&&e.href&&e.origin==t.origin&&[r,n].includes(e.protocol)&&(e.protocol!=r||t.protocol!=n)){var o=e.pathname;if(!(e.hash&&o+e.search==t.pathname+t.search||"?preload=no"==e.search.substr(-11)||".html"!=o.substr(-5)&&".html"!=o.substr(-5)&&"/"!=o.substr(-1)))return!0}},u=function(e){var t=e.replace(/#[^#]+$/,"");if(!o.has(t)){if(i){var a=n();a.rel="prefetch",a.href=t,r.head.appendChild(a)}else{var s=new XMLHttpRequest;s.open("GET",t,s.withCredentials=!0),s.send()}o.add(t)}},p=function(e){return e.target.closest("a")},f=function(t){var r=t.relatedTarget;r&&p(t)==r.closest("a")||e&&(clearTimeout(e),e=void 0)},d={capture:!0,passive:!0};r.addEventListener("touchstart",function(e){t=performance.now();var r=p(e);c(r)&&u(r.href)},d),r.addEventListener("mouseover",function(r){if(!(performance.now()-t<1200)){var n=p(r);c(n)&&(n.addEventListener("mouseout",f,{passive:!0}),e=setTimeout(function(){u(n.href),e=void 0},80))}},d)}}();dpth="../../";!function(){var e={},t={},n={};window.ld=function(a,o,c){var d=function(){"interactive"==document.readyState?(o&&o(),document.addEventListener("readystatechange",function(){"complete"==document.readyState&&c&&c()})):"complete"==document.readyState?(o&&o(),c&&c()):document.addEventListener("readystatechange",function(){"interactive"==document.readyState&&o&&o(),"complete"==document.readyState&&c&&c()})},r=(1<<a.length)-1,i=0,u=function(o){var c=a[o],u=function(){for(var t=0;t<a.length;t++){var o=(1<<t)-1;if((i&o)==o&&n[a[t]]){if(!e[a[t]]){var c=document.createElement("script");c.textContent=n[a[t]],document.body.appendChild(c),e[a[t]]=!0}(i|=1<<t)==r&&d()}}};if(null==t[c]){t[c]=[];var l=new XMLHttpRequest;l.open("GET",c,!0),l.onload=function(){n[c]=l.responseText,[].forEach.call(t[c],function(e){e()})},t[c].push(u),l.send()}else e[c]?u():t[c].push(u)};if(a.length)for(var l=0;l<a.length;l++)u(l);else d()}}();ld([],function(){!function(){var e=document.querySelectorAll('a[href^="#"]');[].forEach.call(e,function(e){e.addEventListener("click",function(t){var a=0;if(e.hash.length>1){var n=parseFloat(getComputedStyle(document.body).getPropertyValue("zoom"));n||(n=1);var o=e.hash.slice(1),r=document.getElementById(o);if(null===r&&null===(r=document.querySelector('[name="'+o+'"]')))return;var s=/chrome/i.test(navigator.userAgent);a=s?r.getBoundingClientRect().top*n+pageYOffset:(r.getBoundingClientRect().top+pageYOffset)*n}if("scrollBehavior"in document.documentElement.style)scroll({top:a,left:0,behavior:"smooth"});else if("requestAnimationFrame"in window){var u=pageYOffset,i=null;requestAnimationFrame(function e(t){i||(i=t);var n=(t-i)/400;scrollTo(0,u<a?(a-u)*n+u:u-(u-a)*n),n<1?requestAnimationFrame(e):scrollTo(0,a)})}else scrollTo(0,a);t.preventDefault()},!1)})}(),window.smoothScroll=function(e,t,a,n){e.stopImmediatePropagation();var o=(t=document.querySelector(t)).getBoundingClientRect().top,r=parseFloat(getComputedStyle(document.body).getPropertyValue("zoom"));r||(r=1);var s=/chrome/i.test(navigator.userAgent),u=window.pageYOffset,i=o*r+(s?0:u*(r-1)),c=null;function l(){m(window.performance.now?window.performance.now():Date.now())}function m(e){null===c&&(c=e);var t=(e-c)/1e3,o=function(e,t,a){switch(n){case"linear":break;case"easeInQuad":e*=e;break;case"easeOutQuad":e=1-(1-e)*(1-e);break;case"easeInCubic":e*=e*e;break;case"easeOutCubic":e=1-Math.pow(1-e,3);break;case"easeInOutCubic":e=e<.5?4*e*e*e:1-Math.pow(-2*e+2,3)/2;break;case"easeInQuart":e*=e*e*e;break;case"easeOutQuart":e=1-Math.pow(1-e,4);break;case"easeInOutQuart":e=e<.5?8*e*e*e*e:1-Math.pow(-2*e+2,4)/2;break;case"easeInQuint":e*=e*e*e*e;break;case"easeOutQuint":e=1-Math.pow(1-e,5);break;case"easeInOutQuint":e=e<.5?16*e*e*e*e*e:1-Math.pow(-2*e+2,5)/2;break;case"easeInCirc":e=1-Math.sqrt(1-Math.pow(e,2));break;case"easeOutCirc":e=Math.sqrt(1-Math.pow(0,2));break;case"easeInOutCirc":e=e<.5?(1-Math.sqrt(1-Math.pow(2*e,2)))/2:(Math.sqrt(1-Math.pow(-2*e+2,2))+1)/2;break;case"easeInOutQuad":default:e=e<.5?2*e*e:1-Math.pow(-2*e+2,2)/2}e>1&&(e=1);return t+a*e}(t/a,u,i);window.scrollTo(0,o),t<a&&("requestAnimationFrame"in window?requestAnimationFrame(m):setTimeout(l,1e3/120))}return"requestAnimationFrame"in window?requestAnimationFrame(m):setTimeout(l,1e3/120),!1};if(location.hash){var e=location.hash.replace("#",""),o=function(){var t=document.querySelectorAll('[name="'+e+'"]')[0];t&&t.scrollIntoView(),"0px"===window.getComputedStyle(document.body).getPropertyValue("min-width")&&setTimeout(o,100)};o()}});</script>
+</body>
+</html>
